@@ -1,0 +1,37 @@
+{
+    "expo": {
+        "name": "Social Login",
+        "slug": "sociallogin",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./apps/assets/images/icon.png",
+        "userInterfaceStyle": "dark",
+        "splash": {
+            "image": "./apps/assets/images/splash.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#ffffff"
+        },
+        "assetBundlePatterns": ["**/*"],
+        "ios": {
+            "supportsTablet": true
+        },
+        "android": {
+            "adaptiveIcon": {
+                "foregroundImage": "./apps/assets/images/icon.png",
+                "backgroundColor": "#ffffff"
+            },
+            "package": "com.sachinaccharya.sociallogin"
+        },
+        "web": {
+            "favicon": "./apps/assets/images/favicon.png"
+        },
+        "plugins": [
+            [
+                "expo-image-picker", {
+                    "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera."
+                }
+            ]
+        ],
+        "scheme": "googleLoginScheme"
+    }
+}
